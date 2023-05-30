@@ -67,6 +67,7 @@ function App() {
             newValue={valueNew}
             splitView={true}
             compareMethod={compareMethod}
+            hideLineNumbers
           />
           <select value={compareMethod} onChange={handleChange}>
             {/* {Object.entries(DiffMethod).map(([key, value]) => (
